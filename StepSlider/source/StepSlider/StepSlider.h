@@ -68,7 +68,11 @@ IB_DESIGNABLE
 /**
  *  Color of the slider slider.
  */
+@property (nonatomic, strong) IBInspectable UIColor *fillColor;
+
 @property (nonatomic, strong) IBInspectable UIColor *trackColor;
+
+@property (nonatomic, strong) IBInspectable UIColor *trackunSelectColor;
 
 /**
  *  Color of the slider main wheel.
